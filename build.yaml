@@ -17,10 +17,10 @@
 #
 ---
 include:
-  - board: nrfmicro_13
+  - board: nice_nano_v2
     shield: square68_left
-  - board: nrfmicro_13
+  - board: nice_nano_v2
     shield: square68_right
-  - board: nrfmicro_13
+  - board: nice_nano_v2
     shield: settings_reset
     
