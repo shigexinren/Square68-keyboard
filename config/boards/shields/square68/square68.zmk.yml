@@ -3,7 +3,7 @@ id: square68
 name: Square68
 type: shield
 url: https://github.com/NoirGuo/Square68-keyboard
-requires: [nrfmicro_13]
+requires: [nice_nano_v2]
 exposes: [i2c_oled]
 features:
   - keys
