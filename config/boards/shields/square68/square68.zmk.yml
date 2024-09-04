@@ -2,7 +2,7 @@ file_format: "1"
 id: square68
 name: Square68
 type: shield
-url: https://github.com/NoirGuo/Noir88-keyboard
+url: https://github.com/NoirGuo/Square68-keyboard
 requires: [nrfmicro_13]
 exposes: [i2c_oled]
 features:
