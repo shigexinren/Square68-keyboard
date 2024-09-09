@@ -13,7 +13,7 @@
             low-power-enable;
         };
     };
-};
+
 
 &spi3 {
     compatible = "nordic,nrf-spim";
@@ -45,6 +45,8 @@
 
 / {
     chosen {
+        zephyr,display = &oled;
         zmk,underglow = &led_strip;
     };
+};
 };
