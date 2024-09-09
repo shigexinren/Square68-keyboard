@@ -84,8 +84,8 @@
         { "label": "UP", "row": 6, "col": 6, "x":           9.5, "y":    4 },
         { "label": "RIGHT", "row": 6, "col": 7, "x":           10.5, "y":    5 },
         { "label": "DOWN", "row": 6, "col": 8, "x":           9.5, "y":    6 },
-        { "label": "KEY", "row": 6, "col": 9, "x":       9.5, "y":      5 },
-        { "label": "LEFT", "row": 6, "col": 10, "x":          8.5, "y":    5 }
+        { "label": "LEFT", "row": 6, "col": 9, "x":       8.5, "y":      5 },
+        { "label": "KEY", "row": 6, "col": 10, "x":          9.5, "y":    5 }
 
       ]
     }
