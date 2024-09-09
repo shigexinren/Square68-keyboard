@@ -24,7 +24,7 @@
 &kp A      &kp S     &kp D      &kp F      &kp G     &kp CAPS        &kp ENTER        &kp H      &kp J      &kp K      &kp L     &kp SEMI
 &kp Z      &kp X     &kp C      &kp V      &kp B     &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH
            &kp LGUI  &kp LCTRL  &kp SPACE  &kp LALT                                   &kp RALT   &kp SPACE  &kp RCTRL  &mo 1
-                                                     &lt 1 ENTER     &kp UP           &kp RIGHT  &kp DOWN   &kp HOME   &kp LEFT
+                                                     &lt 1 ENTER     &kp UP           &kp RIGHT  &kp DOWN   &kp LEFT   &kp HOME
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
@@ -38,7 +38,7 @@
 &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &trans           &trans       &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_MULTIPLY
 &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG  &trans       &trans  &trans     &kp KP_N0  &kp KP_DOT  &kp KP_DIVIDE
                  &trans           &trans           &trans           &trans                                         &trans  &trans     &trans     &trans
-                                                                                     &kp C_MUTE       &trans       &trans  &trans     &kp END    &trans
+                                                                                     &kp C_MUTE       &trans       &trans  &trans     &trans     &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
