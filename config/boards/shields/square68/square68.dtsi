@@ -49,8 +49,8 @@
 
     left_encoder: encoder_left {
         compatible = "alps,ec11";
-        a-gpios = <&gpio1 6 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
-        b-gpios = <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
+        a-gpios = <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <80>;
         status = "okay";
     };
@@ -72,8 +72,8 @@
     oled: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
-        width = <32>;
-        height = <128>;
+        width = <128>;
+        height = <32>;
         segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
