@@ -42,9 +42,8 @@ endchoice
 endif # LVGL
 
 if ZMK_RGB_UNDERGLOW
-
-config WS2812_STRIP
-    default y
+    select WS2812_STRIP
+    select SPI
 endif
 
 endif
