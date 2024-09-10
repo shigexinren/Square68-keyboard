@@ -5,11 +5,14 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/led/led.h>
 
 / {
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix-transform = &default_transform;
+        zephyr,display = &oled;
+        zmk,underglow = &led_strip;
     };
 
     default_transform: keymap_transform_0 {
@@ -47,28 +50,65 @@
 
     };
 
-    left_encoder: left_encoder {
-        compatible = "alps,ec11";
-        steps = <80>;
-        //a-gpios = <&gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        //b-gpios = <&gpio0  1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        
-        //a-gpios = <&gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-        //b-gpios = <&gpio0  1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 
-        //a-gpios = <&gpio1  6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        //b-gpios = <&gpio0  1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+};
 
-        a-gpios = <&gpio1  6 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
-        b-gpios = <&gpio0  1 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
-        //status = "disabled";
-        status = "okay";
+&pinctrl {
+// Other pinctrl definitions for other hardware
+    i2c0_default: i2c0_default {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 28)>,
+                    <NRF_PSEL(TWIM_SCL, 1, 11)>;
+        };
     };
 
-    sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder>;
-        triggers-per-rotation = <20>;
+    i2c0_sleep: i2c0_sleep {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 28)>,
+                    <NRF_PSEL(TWIM_SCL, 1, 11)>;
+            low-power-enable;
+        };
+    };
+
+    spi3_default: spi3_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_MOSI, 0, 6)>;
+        };
+    };
+
+    spi3_sleep: spi3_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_MOSI, 0, 6)>;
+            low-power-enable;
+        };
+    };
+};
+
+&spi3 {
+    compatible = "nordic,nrf-spim";
+    status = "okay";
+
+    pinctrl-0 = <&spi3_default>;
+    pinctrl-1 = <&spi3_sleep>;
+    pinctrl-names = "default", "sleep";
+
+    led_strip: ws2812@0 {
+        compatible = "worldsemi,ws2812-spi";
+
+        /* SPI */
+        reg = <0>; /* ignored, but necessary for SPI bindings */
+        spi-max-frequency = <4000000>;
+
+        /* WS2812 */
+        chain-length = <34>; /* arbitrary; change at will */
+        spi-one-frame = <0x70>;
+        spi-zero-frame = <0x40>;
+
+        color-mapping = <
+            LED_COLOR_ID_GREEN
+            LED_COLOR_ID_RED
+            LED_COLOR_ID_BLUE
+        >;
     };
 };
 
