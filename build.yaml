@@ -19,10 +19,10 @@
 include:
   - board: nrfmicro_13
     shield: square68_left display_091_drum
-    artifact-name:square68_leftwithdrum
+    artifact-name: square68_leftwithdrum
   - board: nrfmicro_13
     shield: square68_right display_091_drum
-    artifact-name:square68_rightwithdrum
+    artifact-name: square68_rightwithdrum
   - board: nrfmicro_13
     shield: settings_reset
     
