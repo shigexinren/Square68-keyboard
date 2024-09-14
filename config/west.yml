@@ -19,6 +19,13 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+      - name: zmk
+      remote: zmkfirmware
+      revision: feat/pointers-move-scroll
+      import: app/west.yml
+    - name: urchin-peripheral-animation
+      remote: gpeye
+      revision: main
     # 这里是添加dongle-display，https://github.com/englmaxi/zmk-dongle-display
     # - name: zmk-dongle-display
     #   remote: englmaxi
