@@ -1,7 +1,7 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    # - name: zmkfirmware
+    #   url-base: https://github.com/zmkfirmware
     # 五向开关模拟鼠标
     - name: zmkfirmwaremouse
       url-base: https://github.com/petejohanson
@@ -17,12 +17,12 @@ manifest:
     # - name: GarrettFaucher
     #   url-base: https://github.com/GarrettFaucher
   projects:
+    # - name: zmk
+    #   remote: zmkfirmware
+    #   revision: main
+    #   import: app/west.yml
     - name: zmk
       remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-    - name: zmkmouse
-      remote: zmkfirmwaremouse
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: urchin-peripheral-animation
