@@ -3,6 +3,8 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     # 五向开关模拟鼠标
+    - name: zmkfirmwaremouse
+      url-base: https://github.com/petejohanson
     - name: gpeye
       url-base: https://github.com/GPeye
     # Additional modules containing boards/shields/custom code can be listed here as well
@@ -19,8 +21,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-      - name: zmk
-      remote: zmkfirmware
+    - name: zmkmouse
+      remote: zmkfirmwaremouse
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: urchin-peripheral-animation
