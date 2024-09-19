@@ -1,4 +1,4 @@
-# zmk-config-sofle
+# zmk-config-square68
 
 
-<img src="keymap-drawer/sofle.svg" >
+<img src="keymap-drawer/square68.svg" >
