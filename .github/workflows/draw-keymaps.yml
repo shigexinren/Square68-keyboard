@@ -24,6 +24,6 @@ jobs:
       # 以下新添加
       commit_message: "[Draw] ${{ github.event.head_commit.message }}"  
       amend_commit: false
-      install_branch: "main"
+      install_branch: "nicenano-with-drum&mouse&draw"
       json_path: "config"
       destination: "both"
