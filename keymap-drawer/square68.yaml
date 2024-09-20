@@ -63,12 +63,12 @@ layers:
   - LCTRL
   - LGUI
   - LALT
-  - SPACE
+  - {t: SPACE, h: layer1}
   - SPACE
   - RALT
   - RCTRL
   - layer1
-  - {t: ENTER, h: layer1}
+  - ENTER
   - UP
   - RIGHT
   - DOWN
@@ -93,7 +93,7 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - BT CLR
-  - PG UP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP 7
   - KP 8
@@ -105,7 +105,7 @@ layers:
   - '&mkp MCLK'
   - '&mkp RCLK'
   - '&mkp MB5'
-  - PG DN
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP 4
   - KP 5
@@ -138,11 +138,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - MUTE
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
