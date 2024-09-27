@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
-    - name: gpeye
-      url-base: https://github.com/GPeye
+    # - name: gpeye
+    #   url-base: https://github.com/GPeye
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     # 这里是添加dongle-display，https://github.com/englmaxi/zmk-dongle-display
@@ -18,9 +18,9 @@ manifest:
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
-    - name: urchin-peripheral-animation
-      remote: gpeye
-      revision: main
+    # - name: urchin-peripheral-animation
+    #   remote: gpeye
+    #   revision: main
     # 这里是添加dongle-display，https://github.com/englmaxi/zmk-dongle-display
     # - name: zmk-dongle-display
     #   remote: englmaxi
