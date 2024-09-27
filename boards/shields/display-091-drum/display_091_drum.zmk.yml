@@ -4,5 +4,4 @@ name: display_091_drum
 type: shield
 url: https://github.com/kawvin/zmk-config
 requires: [nrfmicro_13]
-requires: 
-  - i2c_oled
+exposes: [i2c_oled]
