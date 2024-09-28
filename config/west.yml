@@ -1,8 +1,8 @@
 manifest:
   remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: zmk-mouse
       url-base: https://github.com/petejohanson
     # niceview相关代码
     # - name: gpeye
@@ -19,10 +19,6 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-    - name: zmk
-      remote: zmk-mouse
       revision: feat/pointers-move-scroll
       import: app/west.yml
     # niceview相关代码
@@ -39,5 +35,15 @@ manifest:
     # - name: zmk-dongle-display-091-oled
     #   remote: GarrettFaucher
     #   revision: main
+    
+    - name: nanopb
+      revision: 65cbefb4695bc7af1cb733ced99618afb3586b20
+      path: modules/lib/nanopb
+      remote: zephyrproject-rtos
+    - name: zmk-studio-messages
+      revision: a79267a9661241a6603b6da3d2b3f71e8023a9d9
+      path: modules/msgs/zmk-studio-messages
+      remote: zmkfirmware
+  
   self:
     path: config
