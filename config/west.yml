@@ -1,6 +1,8 @@
 manifest:
   remotes:
     - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: zmk-mouse
       url-base: https://github.com/petejohanson
     # niceview相关代码
     # - name: gpeye
@@ -17,6 +19,10 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: zmk
+      remote: zmk-mouse
       revision: feat/pointers-move-scroll
       import: app/west.yml
     # niceview相关代码
