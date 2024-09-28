@@ -21,8 +21,8 @@ include:
     shield: square68_left display_091_drum
     artifact-name: square68_leftwithdrum
   - board: nice_nano_v2
-    shield: square68_right display_091_drum
-    artifact-name: square68_rightwithdrum
+    shield: square68_right
+    artifact-name: square68_right
   - board: nice_nano_v2
     shield: settings_reset
     
