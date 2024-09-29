@@ -1,5 +1,5 @@
 layers:
-  layer0:
+  QWERT:
   - Ctl+ X
   - F2
   - Ctl+ C
@@ -63,18 +63,18 @@ layers:
   - LCTRL
   - LGUI
   - LALT
-  - {t: SPACE, h: '2'}
-  - {t: SPACE, h: '2'}
+  - {t: SPACE, h: CONTROL}
+  - {t: SPACE, h: CONTROL}
   - RALT
   - RCTRL
-  - layer1
-  - {t: ENTER, h: layer1}
+  - MOUSE
+  - {t: ENTER, h: MOUSE}
   - UP
   - RIGHT
   - DOWN
   - LEFT
   - HOME
-  layer1:
+  MOUSE:
   - F1
   - F2
   - F3
@@ -87,35 +87,35 @@ layers:
   - F10
   - F11
   - F12
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - BT CLR
-  - PG UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP 7
   - KP 8
   - KP 9
   - KP PLUS
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB4'
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
   - '&mkp MB5'
-  - PG DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP 4
   - KP 5
   - KP 6
   - KP MINUS
-  - RGB BRI
-  - RGB SPI
-  - RGB SAI
-  - RGB HUI
-  - RGB EFF
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,12 +123,12 @@ layers:
   - KP 2
   - KP 3
   - KP MULTIPLY
-  - RGB BRD
-  - RGB SPD
-  - RGB SAD
-  - RGB HUD
-  - RGB EFF
-  - RGB TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,13 +143,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - MUTE
+  - ''
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_LEFT'
   - END
-  '2':
+  CONTROL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -162,6 +162,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -169,6 +174,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BT CLR
+  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RGB BRI
+  - RGB SPI
+  - RGB SAI
+  - RGB HUI
+  - RGB EFF
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,34 +198,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB BRD
+  - RGB SPD
+  - RGB SAD
+  - RGB HUD
+  - RGB EFF
+  - RGB TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -218,9 +218,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_LEFT'
+  - END
