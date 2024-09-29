@@ -53,7 +53,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00000 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 };
 
-const lv_img_dsc_t IMG00000 = {
+const lv_img_dsc_t IMG00000_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -105,7 +105,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00001 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00001 = {
+const lv_img_dsc_t IMG00001_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -157,7 +157,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00002 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00002 = {
+const lv_img_dsc_t IMG00002_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -210,7 +210,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00003 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00003 = {
+const lv_img_dsc_t IMG00003_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -262,7 +262,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00004 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00004 = {
+const lv_img_dsc_t IMG00004_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -314,7 +314,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00005 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00005 = {
+const lv_img_dsc_t IMG00005_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -366,7 +366,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00006 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00006 = {
+const lv_img_dsc_t IMG00006_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -418,7 +418,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00007 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00007 = {
+const lv_img_dsc_t IMG00007_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -470,7 +470,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00008 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00008 = {
+const lv_img_dsc_t IMG00008_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -522,7 +522,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00009 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00009 = {
+const lv_img_dsc_t IMG00009_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -574,7 +574,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00010 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00010 = {
+const lv_img_dsc_t IMG00010_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -626,7 +626,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00011 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00011 = {
+const lv_img_dsc_t IMG00011_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -678,7 +678,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00012 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00012 = {
+const lv_img_dsc_t IMG00012_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -730,7 +730,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00013 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00013 = {
+const lv_img_dsc_t IMG00013_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -782,7 +782,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00014 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00014 = {
+const lv_img_dsc_t IMG00014_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -834,7 +834,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00015 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00015 = {
+const lv_img_dsc_t IMG00015_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -886,7 +886,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00016 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00016 = {
+const lv_img_dsc_t IMG00016_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -938,7 +938,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00017 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00017 = {
+const lv_img_dsc_t IMG00017_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -990,7 +990,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00018 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00018 = {
+const lv_img_dsc_t IMG00018_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1042,7 +1042,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00019 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00019 = {
+const lv_img_dsc_t IMG00019_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1094,7 +1094,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00020 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00020 = {
+const lv_img_dsc_t IMG00020_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1146,7 +1146,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00021 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00021 = {
+const lv_img_dsc_t IMG00021_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1198,7 +1198,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00022 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00022 = {
+const lv_img_dsc_t IMG00022_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1250,7 +1250,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00023 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00023 = {
+const lv_img_dsc_t IMG00023_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1302,7 +1302,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00024 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00024 = {
+const lv_img_dsc_t IMG00024_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1354,7 +1354,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00025 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00025 = {
+const lv_img_dsc_t IMG00025_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1406,7 +1406,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00026 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00026 = {
+const lv_img_dsc_t IMG00026_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1458,7 +1458,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00027 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00027 = {
+const lv_img_dsc_t IMG00027_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1510,7 +1510,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00028 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00028 = {
+const lv_img_dsc_t IMG00028_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1562,7 +1562,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00029 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00029 = {
+const lv_img_dsc_t IMG00029_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1614,7 +1614,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00030 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00030 = {
+const lv_img_dsc_t IMG00030_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1666,7 +1666,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00031 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00031 = {
+const lv_img_dsc_t IMG00031_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1718,7 +1718,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00032 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00032 = {
+const lv_img_dsc_t IMG00032_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1770,7 +1770,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00033 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00033 = {
+const lv_img_dsc_t IMG00033_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1822,7 +1822,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00034 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00034 = {
+const lv_img_dsc_t IMG00034_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1874,7 +1874,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00035 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00035 = {
+const lv_img_dsc_t IMG00035_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1926,7 +1926,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00036 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00036 = {
+const lv_img_dsc_t IMG00036_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -1978,7 +1978,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00037 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00037 = {
+const lv_img_dsc_t IMG00037_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2030,7 +2030,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00038 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00038 = {
+const lv_img_dsc_t IMG00038_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2082,7 +2082,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00039 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00039 = {
+const lv_img_dsc_t IMG00039_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2134,7 +2134,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00040 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00040 = {
+const lv_img_dsc_t IMG00040_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2186,7 +2186,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00041 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00041 = {
+const lv_img_dsc_t IMG00041_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2238,7 +2238,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00042 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00042 = {
+const lv_img_dsc_t IMG00042_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2290,7 +2290,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00043 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00043 = {
+const lv_img_dsc_t IMG00043_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2342,7 +2342,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00044 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00044 = {
+const lv_img_dsc_t IMG00044_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2394,7 +2394,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00045 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00045 = {
+const lv_img_dsc_t IMG00045_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2446,7 +2446,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00046 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00046 = {
+const lv_img_dsc_t IMG00046_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2498,7 +2498,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00047 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00047 = {
+const lv_img_dsc_t IMG00047_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2550,7 +2550,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00048 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00048 = {
+const lv_img_dsc_t IMG00048_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2602,7 +2602,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00049 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00049 = {
+const lv_img_dsc_t IMG00049_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2654,7 +2654,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00050 
   0xff, 0xff, 0xfe, 0x3f, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00050 = {
+const lv_img_dsc_t IMG00050_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2706,7 +2706,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00051 
   0xff, 0xff, 0xfc, 0x3f, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00051 = {
+const lv_img_dsc_t IMG00051_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2758,7 +2758,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00052 
   0xff, 0xff, 0xfc, 0x3f, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00052 = {
+const lv_img_dsc_t IMG00052_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2810,7 +2810,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00053 
   0xff, 0xff, 0xfc, 0x3f, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00053 = {
+const lv_img_dsc_t IMG00053_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2862,7 +2862,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00054 
   0xff, 0xff, 0xfc, 0x3f, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00054 = {
+const lv_img_dsc_t IMG00054_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2914,7 +2914,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00055 
   0xff, 0xff, 0xfc, 0x3f, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00055 = {
+const lv_img_dsc_t IMG00055_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -2966,7 +2966,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00056 
   0xff, 0xff, 0xfc, 0x3f, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00056 = {
+const lv_img_dsc_t IMG00056_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -3018,7 +3018,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00057 
   0xff, 0xff, 0xfc, 0x3f, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00057 = {
+const lv_img_dsc_t IMG00057_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -3070,7 +3070,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00058 
   0xff, 0xff, 0xfc, 0x3f, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00058 = {
+const lv_img_dsc_t IMG00058_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -3122,7 +3122,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00059 
   0xff, 0xff, 0xfc, 0x3f, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00059 = {
+const lv_img_dsc_t IMG00059_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -3174,7 +3174,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00060 
   0xff, 0xff, 0xfc, 0x3f, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00060 = {
+const lv_img_dsc_t IMG00060_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -3226,7 +3226,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00061 
   0xff, 0xff, 0xfc, 0x03, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00061 = {
+const lv_img_dsc_t IMG00061_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -3278,7 +3278,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00062 
   0xff, 0xff, 0xfc, 0x03, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00062 = {
+const lv_img_dsc_t IMG00062_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -3330,7 +3330,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IMG00063 
   0xff, 0xff, 0xfc, 0x03, 0xff, 0xfc, 
 };
 
-const lv_img_dsc_t IMG00063 = {
+const lv_img_dsc_t IMG00063_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
