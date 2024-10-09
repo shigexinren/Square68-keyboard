@@ -49,70 +49,34 @@ LV_IMG_DECLARE(battery80_icon);
 LV_IMG_DECLARE(battery90_icon);
 LV_IMG_DECLARE(batterycharge_icon);
 LV_IMG_DECLARE(disconnect_icon);
-LV_IMG_DECLARE(IMG00000_icon);
-LV_IMG_DECLARE(IMG00001_icon);
-LV_IMG_DECLARE(IMG00002_icon);
-LV_IMG_DECLARE(IMG00003_icon);
-LV_IMG_DECLARE(IMG00004_icon);
-LV_IMG_DECLARE(IMG00005_icon);
-LV_IMG_DECLARE(IMG00006_icon);
-LV_IMG_DECLARE(IMG00007_icon);
-LV_IMG_DECLARE(IMG00008_icon);
-LV_IMG_DECLARE(IMG00009_icon);
-LV_IMG_DECLARE(IMG00010_icon);
-LV_IMG_DECLARE(IMG00011_icon);
-LV_IMG_DECLARE(IMG00012_icon);
-LV_IMG_DECLARE(IMG00013_icon);
-LV_IMG_DECLARE(IMG00014_icon);
-LV_IMG_DECLARE(IMG00015_icon);
-LV_IMG_DECLARE(IMG00016_icon);
-LV_IMG_DECLARE(IMG00017_icon);
-LV_IMG_DECLARE(IMG00018_icon);
-LV_IMG_DECLARE(IMG00019_icon);
-LV_IMG_DECLARE(IMG00020_icon);
-LV_IMG_DECLARE(IMG00021_icon);
-LV_IMG_DECLARE(IMG00022_icon);
-LV_IMG_DECLARE(IMG00023_icon);
-LV_IMG_DECLARE(IMG00024_icon);
-LV_IMG_DECLARE(IMG00025_icon);
-LV_IMG_DECLARE(IMG00026_icon);
-LV_IMG_DECLARE(IMG00027_icon);
-LV_IMG_DECLARE(IMG00028_icon);
-LV_IMG_DECLARE(IMG00029_icon);
-LV_IMG_DECLARE(IMG00030_icon);
-LV_IMG_DECLARE(IMG00031_icon);
-LV_IMG_DECLARE(IMG00032_icon);
-LV_IMG_DECLARE(IMG00033_icon);
-LV_IMG_DECLARE(IMG00034_icon);
-LV_IMG_DECLARE(IMG00035_icon);
-LV_IMG_DECLARE(IMG00036_icon);
-LV_IMG_DECLARE(IMG00037_icon);
-LV_IMG_DECLARE(IMG00038_icon);
-LV_IMG_DECLARE(IMG00039_icon);
-LV_IMG_DECLARE(IMG00040_icon);
-LV_IMG_DECLARE(IMG00041_icon);
-LV_IMG_DECLARE(IMG00042_icon);
-LV_IMG_DECLARE(IMG00043_icon);
-LV_IMG_DECLARE(IMG00044_icon);
-LV_IMG_DECLARE(IMG00045_icon);
-LV_IMG_DECLARE(IMG00046_icon);
-LV_IMG_DECLARE(IMG00047_icon);
-LV_IMG_DECLARE(IMG00048_icon);
-LV_IMG_DECLARE(IMG00049_icon);
-LV_IMG_DECLARE(IMG00050_icon);
-LV_IMG_DECLARE(IMG00051_icon);
-LV_IMG_DECLARE(IMG00052_icon);
-LV_IMG_DECLARE(IMG00053_icon);
-LV_IMG_DECLARE(IMG00054_icon);
-LV_IMG_DECLARE(IMG00055_icon);
-LV_IMG_DECLARE(IMG00056_icon);
-LV_IMG_DECLARE(IMG00057_icon);
-LV_IMG_DECLARE(IMG00058_icon);
-LV_IMG_DECLARE(IMG00059_icon);
-LV_IMG_DECLARE(IMG00060_icon);
-LV_IMG_DECLARE(IMG00061_icon);
-LV_IMG_DECLARE(IMG00062_icon);
-LV_IMG_DECLARE(IMG00063_icon);
+LV_IMG_DECLARE(dance01_icon);
+LV_IMG_DECLARE(dance02_icon);
+LV_IMG_DECLARE(dance03_icon);
+LV_IMG_DECLARE(dance04_icon);
+LV_IMG_DECLARE(dance05_icon);
+LV_IMG_DECLARE(dance06_icon);
+LV_IMG_DECLARE(dance07_icon);
+LV_IMG_DECLARE(dance08_icon);
+LV_IMG_DECLARE(dance09_icon);
+LV_IMG_DECLARE(dance10_icon);
+LV_IMG_DECLARE(dance11_icon);
+LV_IMG_DECLARE(dance12_icon);
+LV_IMG_DECLARE(dance13_icon);
+LV_IMG_DECLARE(dance14_icon);
+LV_IMG_DECLARE(dance15_icon);
+LV_IMG_DECLARE(dance14_icon);
+LV_IMG_DECLARE(dance13_icon);
+LV_IMG_DECLARE(dance12_icon);
+LV_IMG_DECLARE(dance11_icon);
+LV_IMG_DECLARE(dance10_icon);
+LV_IMG_DECLARE(dance09_icon);
+LV_IMG_DECLARE(dance08_icon);
+LV_IMG_DECLARE(dance07_icon);
+LV_IMG_DECLARE(dance06_icon);
+LV_IMG_DECLARE(dance05_icon);
+LV_IMG_DECLARE(dance04_icon);
+LV_IMG_DECLARE(dance03_icon);
+LV_IMG_DECLARE(dance02_icon);
 
 const lv_img_dsc_t *batterys_level[] = {
     &battery00_icon,
@@ -130,70 +94,34 @@ const lv_img_dsc_t *batterys_level[] = {
 };
 
 const lv_img_dsc_t *dance_images[] = {
-    &IMG00000_icon,
-    &IMG00001_icon,
-    &IMG00002_icon,
-    &IMG00003_icon,
-    &IMG00004_icon,
-    &IMG00005_icon,
-    &IMG00006_icon,
-    &IMG00007_icon,
-    &IMG00008_icon,
-    &IMG00009_icon,
-    &IMG00010_icon,
-    &IMG00011_icon,
-    &IMG00012_icon,
-    &IMG00013_icon,
-    &IMG00014_icon,
-    &IMG00015_icon,
-    &IMG00016_icon,
-    &IMG00017_icon,
-    &IMG00018_icon,
-    &IMG00019_icon,
-    &IMG00020_icon,
-    &IMG00021_icon,
-    &IMG00022_icon,
-    &IMG00023_icon,
-    &IMG00024_icon,
-    &IMG00025_icon,
-    &IMG00026_icon,
-    &IMG00027_icon,
-    &IMG00028_icon,
-    &IMG00029_icon,
-    &IMG00030_icon,
-    &IMG00031_icon,
-    &IMG00032_icon,
-    &IMG00033_icon,
-    &IMG00034_icon,
-    &IMG00035_icon,
-    &IMG00036_icon,
-    &IMG00037_icon,
-    &IMG00038_icon,
-    &IMG00039_icon,
-    &IMG00040_icon,
-    &IMG00041_icon,
-    &IMG00042_icon,
-    &IMG00043_icon,
-    &IMG00044_icon,
-    &IMG00045_icon,
-    &IMG00046_icon,
-    &IMG00047_icon,
-    &IMG00048_icon,
-    &IMG00049_icon,
-    &IMG00050_icon,
-    &IMG00051_icon,
-    &IMG00052_icon,
-    &IMG00053_icon,
-    &IMG00054_icon,
-    &IMG00055_icon,
-    &IMG00056_icon,
-    &IMG00057_icon,
-    &IMG00058_icon,
-    &IMG00059_icon,
-    &IMG00060_icon,
-    &IMG00061_icon,
-    &IMG00062_icon,
-    &IMG00063_icon,
+    &dance01_icon,
+    &dance02_icon,
+    &dance03_icon,
+    &dance04_icon,
+    &dance05_icon,
+    &dance06_icon,
+    &dance07_icon,
+    &dance08_icon,
+    &dance09_icon,
+    &dance10_icon,
+    &dance11_icon,
+    &dance12_icon,
+    &dance13_icon,
+    &dance14_icon,
+    &dance15_icon,
+    &dance14_icon,
+    &dance13_icon,
+    &dance12_icon,
+    &dance11_icon,
+    &dance10_icon,
+    &dance09_icon,
+    &dance08_icon,
+    &dance07_icon,
+    &dance06_icon,
+    &dance05_icon,
+    &dance04_icon,
+    &dance03_icon,
+    &dance02_icon,
 };
 
 enum peripheral_symbol {
@@ -339,7 +267,7 @@ int zmk_widget_status_init(struct zmk_widget_status *widget, lv_obj_t *parent) {
     lv_obj_center(animimg1); //居中
     // lv_animimg_set_src(animimg1, (lv_img_decoder_t**)my_anim_imgs,MAX_IMGS_NUM  );
     lv_animimg_set_src(animimg1, SRC(dance_images));
-    lv_animimg_set_duration(animimg1,900);
+    lv_animimg_set_duration(animimg1,1200);
     lv_animimg_set_repeat_count(animimg1,LV_ANIM_REPEAT_INFINITE);  // count设置为LV_ANIM_REPEAT_INFINITE时表示一直循环显示
     lv_animimg_start(animimg1 );
 
