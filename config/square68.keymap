@@ -14,6 +14,11 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  //  600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
+&lt {
+    flavor = "tap-preferred";
+    quick-tap-ms = <180>;
+};
+
 / {
     behaviors {
         mmv {
@@ -47,8 +52,8 @@
 &kp Q      &kp W      &kp E      &kp R      &kp T        &kp TAB         &kp SQT          &kp Y        &kp U      &kp I      &kp O     &kp P
 &kp A      &kp S      &kp D      &kp F      &kp G        &kp CAPS        &kp ENTER        &kp H        &kp J      &kp K      &kp L     &kp SEMI
 &kp Z      &kp X      &kp C      &kp V      &kp B        &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &kp N        &kp M      &kp COMMA  &kp DOT   &kp FSLH
-           &kp LCTRL  &kp LGUI   &kp LALT   &lt 2 SPACE                                   &lt 2 SPACE  &kp RALT   &kp RCTRL  &mo 1
-                                                         &lt 1 ENTER     &kp UP           &kp RIGHT    &kp DOWN   &kp LEFT   &kp HOME
+           &kp LCTRL  &kp LGUI   &kp LALT   &lt 1 SPACE                                   &lt 2 SPACE  &kp RALT   &kp RCTRL  &mo 1
+                                                         &lt 2 ENTER     &kp UP           &kp RIGHT    &kp DOWN   &kp LEFT   &kp HOME
             >;
 
             display-name = "QWERT";
@@ -63,7 +68,7 @@
 &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5  &trans  &trans        &trans           &kp KP_N1       &kp KP_N2       &kp KP_N3   &kp KP_MULTIPLY
 &trans  &trans     &trans     &trans     &trans    &trans  &trans        &trans           &trans          &kp KP_N0       &kp KP_DOT  &kp KP_DIVIDE
         &trans     &trans     &trans     &trans                          &trans           &trans          &trans          &trans
-                                                   &none   &mmv MOVE_UP  &mmv MOVE_RIGHT  &mmv MOVE_DOWN  &mmv MOVE_LEFT  &kp END
+                                                   &trans  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mmv MOVE_DOWN  &mmv MOVE_LEFT  &kp END
             >;
 
             display-name = "MOUSE";
