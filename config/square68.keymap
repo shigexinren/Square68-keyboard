@@ -14,6 +14,11 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  //  600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
+&lt {
+    flavor = "tap-preferred";
+    quick-tap-ms = <180>;
+};
+
 / {
     behaviors {
         mmv {
@@ -35,17 +40,6 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
         tap-ms = <30>;
-    };
-
-    ltq: ltq {
-        compatible = "zmk,behavior-hold-tap";
-        label = "LTQ";
-        bindings = <&none>, <&none>;
-
-        #binding-cells = <2>;
-        flavor = "tap-preferred";
-        tapping-term-ms = <200>;
-        quick-tap-ms = <180>;
     };
 
     keymap {
@@ -74,7 +68,7 @@
 &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans  &trans        &trans           &kp KP_N1       &kp KP_N2       &kp KP_N3   &kp KP_MULTIPLY
 &trans  &trans     &trans     &trans     &trans  &trans  &trans        &trans           &trans          &kp KP_N0       &kp KP_DOT  &kp KP_DIVIDE
         &trans     &trans     &trans     &trans                        &trans           &trans          &trans          &trans
-                                                 &none   &mmv MOVE_UP  &mmv MOVE_RIGHT  &mmv MOVE_DOWN  &mmv MOVE_LEFT  &kp END
+                                                 &trans  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mmv MOVE_DOWN  &mmv MOVE_LEFT  &kp END
             >;
 
             display-name = "MOUSE";
