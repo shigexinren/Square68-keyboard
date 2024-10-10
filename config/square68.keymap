@@ -37,6 +37,17 @@
         tap-ms = <30>;
     };
 
+    ltq: ltq {
+        compatible = "zmk,behavior-hold-tap";
+        label = "LTQ";
+        bindings = <&none>, <&none>;
+
+        #binding-cells = <2>;
+        flavor = "tap-preferred";
+        tapping-term-ms = <200>;
+        quick-tap-ms = <180>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
