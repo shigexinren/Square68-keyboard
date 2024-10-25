@@ -65,7 +65,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - {t: '$$mdi:keyboard-space$$', h: CONTROL}
-  - +
+  - KP PLUS
   - $$mdi:apple-keyboard-control$$
   - MOUSE
   - {t: '$$mdi:keyboard-return$$', h: CONTROL}
